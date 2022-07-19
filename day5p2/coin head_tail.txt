@@ -1,0 +1,8 @@
+read -p "Enter the coin"  coin
+
+if [ $coin -eq 00 ]
+then 
+echo "head"
+else
+echo "tail"
+fi
